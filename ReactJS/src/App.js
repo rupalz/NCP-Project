@@ -5,6 +5,7 @@ import { Watchlist } from "./components/Watchlist";
 import { Watched } from "./components/Watched";
 import { Add } from "./components/Add";
 import {MoviePage} from "./components/MoviePage";
+import {Login} from './components/login';
 import "./App.css";
 import "./lib/font-awesome/css/all.min.css";
 
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/watched">
             <Watched />
+          </Route>
+          <Route path="/login">
+            <Login />
           </Route>
         </Switch>
       </Router>
